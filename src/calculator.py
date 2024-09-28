@@ -17,7 +17,7 @@ class Calculator():
 
     def division(self, a, b):
         if b == 0:
-            return 'Error: Division por cero'
+            return 'Error: División por cero'
         self.value = a / b
         return self.value
 

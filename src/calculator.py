@@ -51,6 +51,8 @@ class Calculator():
         return self.value
 
     def factorial(self, a):
+        if isinstance(a, float) and not a.is_integer():
+                return 'Error: El factorial solo acepta números enteros.'
         if a < 0:
             return 'Error: Factorial de numero negativo'
         self.value = 1

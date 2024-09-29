@@ -62,4 +62,5 @@ class TestMyCalculator(unittest.TestCase):
         self.assertEqual(self.calc.factorial(1), 1)
         self.assertEqual(self.calc.factorial(5), 120)
         self.assertEqual(self.calc.factorial(-1), 'Error: Factorial de numero negativo')
+        self.assertEqual(self.calc.factorial(1.5), 'Error: El factorial solo acepta números enteros.')
 

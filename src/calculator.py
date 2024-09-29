@@ -58,8 +58,7 @@ class Calculator():
             self.value *= i
         return self.value
     
-    def menu():
-        print("Seleccione una operación:")
+    def menu(self):
         print("1. Suma")
         print("2. Resta")
         print("3. Multiplicación")

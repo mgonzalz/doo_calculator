@@ -4,5 +4,5 @@ from lanzador import main
 import unittest
 if __name__ == '__main__':
     main()
-    print("----------------- EJECUCIÓN DE TESTS: MENU Y CALCUALDORA.")
+    print("----------------- EJECUCIÓN DE TESTS: MENU Y CALCULADORA.")
     unittest.main()
